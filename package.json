@@ -1,0 +1,39 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "NodeJs API with MySQL and docker",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon src/index.js",
+    "start:prod": "NODE_ENV=prod node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushrathor/docker-prep.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "MySQL",
+    "API"
+  ],
+  "author": "aayush-rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayushrathor/docker-prep/issues"
+  },
+  "homepage": "https://github.com/aayushrathor/docker-prep#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "pino": "^8.0.0",
+    "pino-pretty": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
