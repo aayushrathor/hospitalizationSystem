@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS patients-database;
 
 USE patients-database;
 
-DROP TABLE IS EXISTS patients;
+DROP TABLE IF EXISTS patients;
 
 CREATE TABLE patients(
 	id 				 BIGINIT UNSIGNED NOT NULL AUTO_INCREMENT,
