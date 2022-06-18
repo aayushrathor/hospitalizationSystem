@@ -4,11 +4,11 @@ import dotenv from 'dotenv';
 dotenv.config();
 const pool = mysql.createPool({
 	host: process.env.DB_HOST,
-	port: proq.env.DB_PORT,	
-	user: proq.env.DB_USER, 
-	password: proq.env.DB_PASSWORD, 
-	database: proq.env.DB_NAME, 
-	connectionLimit: proq.env.DB_CONNECTION_LIMIT 
+	port: process.env.DB_PORT,	
+	user: process.env.DB_USER, 
+	password: process.env.DB_PASSWORD, 
+	database: process.env.DB_NAME, 
+	connectionLimit: process.env.DB_CONNECTION_LIMIT 
 });
 
 export default pool;
