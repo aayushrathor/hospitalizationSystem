@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJs API with MySQL and docker",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "start:dev": "NODE_ENV=dev nodemon src/index.js",
     "start:prod": "NODE_ENV=prod node src/index.js"
